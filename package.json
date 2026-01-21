@@ -10,7 +10,8 @@
     "format": "bun x ultracite fix",
     "lint": "bun x ultracite check",
     "prepare": "husky",
-    "test": ""
+    "test": "",
+    "tauri": "bun --filter @melos/tauri tauri"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.11",

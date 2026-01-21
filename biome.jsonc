@@ -5,7 +5,37 @@
     "ultracite/biome/react",
     "ultracite/biome/remix"
   ],
+  "vcs": {
+    "enabled": false,
+    "clientKind": "git",
+    "useIgnoreFile": false
+  },
+  "files": {
+    "ignoreUnknown": false,
+    "includes": [
+      "**/src/**/*",
+      "**/.vscode/**/*",
+      "**/index.html",
+      "**/vite.config.ts",
+      "!**/src/routeTree.gen.ts",
+      "!**/src/styles.css"
+    ]
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "tab"
+  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    }
+  },
   "javascript": {
-    "globals": ["MAIN_WINDOW_VITE_DEV_SERVER_URL", "MAIN_WINDOW_VITE_NAME"]
+    "globals": ["MAIN_WINDOW_VITE_DEV_SERVER_URL", "MAIN_WINDOW_VITE_NAME"],
+    "formatter": {
+      "quoteStyle": "double"
+    }
   }
 }

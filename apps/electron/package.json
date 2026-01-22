@@ -5,8 +5,7 @@
   "version": "0.0.1",
   "main": "./out/main/index.js",
   "scripts": {
-    "dev": "electron-vite dev",
-    "build": "electron-vite build",
+    "electron": "electron-vite",
     "postinstall": "electron-builder install-app-deps"
   },
   "dependencies": {
@@ -16,7 +15,8 @@
   "devDependencies": {
     "@electron-toolkit/tsconfig": "^2.0.0",
     "@tailwindcss/vite": "^4.0.6",
-    "@tanstack/router-plugin": "^1.132.0",
+    "@tanstack/devtools-vite": "^0.3.11",
+    "@tanstack/react-start": "^1.132.0",
     "@types/node": "^22.19.1",
     "@vitejs/plugin-react": "^5.0.4",
     "electron": "github:castlabs/electron-releases#v39.2.7+wvcus",

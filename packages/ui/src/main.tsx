@@ -8,12 +8,12 @@ import {
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
-import Header from "./components/Header";
+import Header from "./components/header";
 import * as TanStackQueryProvider from "./integrations/tanstack-query/root-provider.tsx";
-import FormAddressDemo from "./routes/demo.form.address.tsx";
-import FormSimpleDemo from "./routes/demo.form.simple.tsx";
-import TableDemo from "./routes/demo.table.tsx";
-import TanStackQueryDemo from "./routes/demo.tanstack-query.tsx";
+import FormAddressDemo from "./routes/demo/form.address.tsx";
+import FormSimpleDemo from "./routes/demo/form.simple.tsx";
+import TableDemo from "./routes/demo/table.tsx";
+import TanStackQueryDemo from "./routes/demo/tanstack-query.tsx";
 
 import "./styles.css";
 

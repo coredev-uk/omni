@@ -6,14 +6,13 @@
     "packages/*"
   ],
   "scripts": {
-    "dev:ui": "bun --filter @melos/ui dev",
-    "dev:electron": "bun --filter @melos/electron dev",
-    "build:electron": "bun --filter @melos/electron build",
+    "electron": "bun --filter @melos/electron electron",
+    "tauri": "bun --filter @melos/tauri tauri",
+    "dev": "bun --filter @melos/ui dev",
     "format": "bun x ultracite fix",
     "lint": "bun x ultracite check",
     "prepare": "husky",
-    "test": "",
-    "tauri": "bun --filter @melos/tauri tauri"
+    "test": ""
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.11",

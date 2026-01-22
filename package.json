@@ -1,5 +1,5 @@
 {
-  "name": "melos-monorepo",
+  "name": "omni",
   "private": true,
   "workspaces": [
     "apps/*",

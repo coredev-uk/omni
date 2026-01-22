@@ -31,3 +31,4 @@ devenv.local.yaml
 # pre-commit
 .pre-commit-config.yaml
 apps/electron/out
+packages/ui/.output

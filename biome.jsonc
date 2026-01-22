@@ -14,7 +14,8 @@
       "**/vite.config.ts",
       "!**/src/routeTree.gen.ts",
       "!**/src/styles.css",
-      "!**/demo"
+      "!**/*demo*",
+      "!packages/ui" // TODO: REMOVE THIS WHEN FRONTEND WORK BEGINS
     ]
   },
   "formatter": {
